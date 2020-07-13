@@ -1,0 +1,39 @@
+{
+  "name": "gulp-zce-demo",
+  "version": "0.1.0",
+  "description": "Awesome node module",
+  "keywords": [
+    "gulp-zce-demo",
+    "zce"
+  ],
+  "homepage": "https://github.com/snakeXu/gulp-zce-demo#readme",
+  "bugs": {
+    "url": "https://github.com/snakeXu/gulp-zce-demo/issues"
+  },
+  "license": "MIT",
+  "author": "xujing <1239748054@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snakeXu/gulp-zce-demo.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
